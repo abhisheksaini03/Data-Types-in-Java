@@ -43,13 +43,30 @@ public class CharDataType {
         System.out.println(g);
 
         // example of type casting uin boolean data type
-        int a_int = 10;
+        /* int a_int = 10;
         boolean a_bool =(boolean)(a_int);
         int b_int =1;
         boolean b_bool = (boolean) (b_int);
 
+        it cannot work this shows error because boolean is a isolated datatype it can not perform explicit typecasting
+        */
+
 
         // integer datatype
+        // 1.byte - 1 byte memeory - 8 bits - range -> -128 to 127
+        // 2.short - 2 byte memory - 16 bits - range -> -2^7 to 2^7 - 1
+       //  3.int - 4 byte memory - 32 bits - range -> -2^31 to 2^31-1
+       //  4.long - 8 byte memory - 64 bits - range -> -2^63 to 2^63-1
+
+       byte a_byte = (byte) (130);
+       System.out.println(a_byte);
+
+       int c_int = 20 ;
+       byte b_byte = (byte) c_int;
+       c_int = b_byte;
+       System.out.println(b_byte);
+       System.out.println(c_int);
+       
 
 
 
