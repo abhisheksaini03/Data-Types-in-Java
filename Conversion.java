@@ -29,6 +29,49 @@ class Conversion {
     System.out.println(d_double);
 
 
+   char a_char = (char)(97-32);
+   System.out.println(a_char);
+
+
+   byte b_byte = 10;
+   short b_short = 20;
+   int b_int = 30;
+   long b_long = 10,bb_long;
+   bb_long = b_byte +b_short+b_int +b_long;
+   System.out.println(bb_long);
+
+
+
+   byte a=10,b=20;
+   int c;
+   c= (a+b);
+   System.out.println(c);
+
+
+   char b_char = 'A' ;
+   System.out.println(b_char);
+   char c_char = (char)(b_char + 10);
+   System.out.println(c_char);
+
+   
+   short ss = 10 ;
+   int ii = ss;
+   System.out.println(ii);
+
+
+   int vv = 013+10;
+   System.out.println(vv);
+
+   char cc  = (char)(0130);
+   System.out.println(cc);
+
+
+   byte bb = 65 ;
+   char mm = (char)bb;
+   System.out.println(mm);
+
+
+
 
 
 
